@@ -1,8 +1,71 @@
 [
   {
+    "title": "결전일",
+    "description": "결전은 일요일",
+    "releaseDate": "2022.01.07",
+    "links": {
+
+    }
+  },
+  {
+    "title": "히루",
+    "description": "히루 시즌1",
+    "releaseDate": "2022.03.04 ~ 2022.04.08",
+    "links": {
+        "wat": "https://watcha.com/ko-KR/contents/share/tEojzWV",
+        "tvi": "https://www.tving.com/contents/P001741526",
+        "wav": "https://deep.wavve.com/content/C3901_C39000000225",
+        "nex": null,
+        "plu": null
+    }
+  },
+  {
+    "title": "체리마호",
+    "description": "체리마호: 30살까지 동정이면 마법사가 될 수 있대",
+    "releaseDate": "2022.04.08",
+    "links": {
+        "wat": "https://watcha.com/ko-KR/contents/share/mObV08N",
+        "tvi": null,
+        "wav": "https://deep.wavve.com/content/MV_MC01_MC000000015",
+        "nex": null,
+        "plu": null
+    }
+  },
+  {
+    "title": "이시하네",
+    "description": "이시코와 하네오 -그런 일로 고소합니까?-",
+    "releaseDate": "2022.07.15 ~ 2022.09.16",
+    "links": {
+        "wat": "https://watcha.com/ko-KR/contents/share/tRMxZm4",
+        "tvi": "https://www.tving.com/contents/P001752854",
+        "wav": "https://deep.wavve.com/content/C3901_C39000000241",
+        "nex": null,
+        "plu": null
+    }
+  },
+  {
+    "title": "소바",
+    "description": "시오스케와 아마미 -소바가 만들어지기까지 탐정-",
+    "releaseDate": "2022.08.05",
+    "etc": "3화",
+    "links": {
+
+    }
+  },
+  {
+    "title": "마이아가레",
+    "description": "날아올라라!",
+    "releaseDate": "2022.10.03 ~ 2023.03.31",
+    "etc": "주인공 상대역",
+    "links": {
+
+    }
+  },
+  {
     "title": "교장0",
     "description": "카자마 키미치카 -교장 0-",
     "releaseDate": "2023.04.10 ~ 2023.04.17",
+    "etc": "1화, 2화 / 주인공 버디",
     "links": {
         "wat": "https://watcha.com/ko-KR/contents/share/tPVdK3b",
         "tvi": "https://www.tving.com/contents/P001753486",
@@ -15,6 +78,7 @@
     "title": "펜토레",
     "description": "펜딩 트레인 -8시 23분, 내일 너와-",
     "releaseDate": "2023.04.21 ~ 2023.06.23",
+    "etc": "주인공 버디",
     "links": {
         "wat": "https://watcha.com/ko-KR/contents/share/tRN7gdM",
         "tvi": null,
@@ -27,6 +91,7 @@
     "title": "무카이군",
     "description": "이쪽을 봐줘 무카이 군",
     "releaseDate": "2023.07.12 ~ 2023.09.13",
+    "etc": "첫 골든 주연",
     "links": {
         "wat": "https://watcha.com/ko-KR/contents/share/tPJZKMp",
         "tvi": "https://www.tving.com/contents/P001749501",

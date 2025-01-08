@@ -18,33 +18,41 @@ function openModal(title) {
   const selectedItem = filmographyData.find(item => item.title === title);
 
   if (selectedItem) {
-      const modalTitle = document.getElementById("modal-title");
-      const modalDescription = document.getElementById("modal-description");
+    const modalTitle = document.getElementById("modal-title");
+    const modalDescription = document.getElementById("modal-description");
+    const modalEtc = document.getElementById("modal-etc");
 
-      modalTitle.textContent = selectedItem.description;
-      modalDescription.textContent = `${selectedItem.releaseDate}`;
+    modalTitle.textContent = selectedItem.description;
+    modalDescription.textContent = `${selectedItem.releaseDate}`;
 
-      // 아이콘 링크를 업데이트
-      const icons = document.querySelectorAll(".modal-icons a");
-      const iconTypes = ["wat", "tvi", "wav", "nex", "plu"];
+    if (selectedItem.etc) {
+      modalEtc.textContent = selectedItem.etc;
+      modalEtc.style.display = "block"; // etc 내용을 표시
+    } else {
+      modalEtc.style.display = "none"; // etc가 없으면 숨김
+    }
 
-      icons.forEach((icon, index) => {
-          const linkType = iconTypes[index];
-          const link = selectedItem.links[linkType]; // JSON에서 해당 링크 가져오기
+    // 모달창을 표시
+    document.getElementById("modal").style.display = "flex";
 
-          if (link) {
-              icon.href = link; // 링크 설정
-              icon.style.pointerEvents = "auto"; // 클릭 활성화
-              icon.style.opacity = "1"; // 시각적으로 활성화 표시
-          } else {
-              icon.href = "#"; // 기본 링크 제거
-              icon.style.pointerEvents = "none"; // 클릭 비활성화
-              icon.style.opacity = "0.5"; // 시각적으로 비활성화 표시
-          }
-      });
+    // 아이콘 링크를 업데이트
+    const icons = document.querySelectorAll(".modal-icons a");
+    const iconTypes = ["wat", "tvi", "wav", "nex", "plu"];
 
-      // 모달창을 표시
-      document.getElementById("modal").style.display = "flex";
+    icons.forEach((icon, index) => {
+      const linkType = iconTypes[index];
+      const link = selectedItem.links[linkType]; // JSON에서 해당 링크 가져오기
+
+      if (link) {
+        icon.href = link; // 링크 설정
+        icon.style.pointerEvents = "auto"; // 클릭 활성화
+        icon.style.opacity = "1"; // 시각적으로 활성화 표시
+      } else {
+        icon.href = "#"; // 기본 링크 제거
+        icon.style.pointerEvents = "none"; // 클릭 비활성화
+        icon.style.opacity = "0.5"; // 시각적으로 비활성화 표시
+      }
+    });
   }
 }
 

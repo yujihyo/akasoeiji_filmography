@@ -196,3 +196,7 @@ html {
 .icon:hover {
     transform: scale(1.1); /* 아이콘 확대 */
 }
+
+#modal-etc {
+    margin-top: 10px; /* 위쪽 간격 설정 */
+}

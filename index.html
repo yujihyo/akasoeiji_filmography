@@ -203,35 +203,35 @@
 
             <div class="year-label">2022년</div>
 
-            <div class="grid-item-container">
+            <div class="grid-item-container" onclick="openModal('결전일')">
                 <img src="photo/kswsun.jpg" alt="22-01" class="grid-item">
                 <div class="color-bar" style="background-color: #999999; height: 5.5px;"></div>
-                <div class="grid-item-info">결정은 일요일</div>
+                <div class="grid-item-info">이와부치 유우키</div>
             </div>
-            <div class="grid-item-container">
+            <div class="grid-item-container" onclick="openModal('히루')">
                 <img src="photo/heru.jpg" alt="22-02" class="grid-item">
                 <div class="color-bar" style="background-color: #ddc86d; height: 5.5px;"></div>
-                <div class="grid-item-info">히루 시즌1</div>
+                <div class="grid-item-info">시노미야 유키</div>
             </div>
-            <div class="grid-item-container">
+            <div class="grid-item-container" onclick="openModal('체리마호')">
                 <img src="photo/crmh.jpg" alt="22-03" class="grid-item">
                 <div class="color-bar" style="background-color: #ddc86d; height: 5.5px;"></div>
-                <div class="grid-item-info">체리마호:<br>30살까지 동정이면<br>마법사가 될 수 있대</div>
+                <div class="grid-item-info">아다치 키요시</div>
             </div>
-            <div class="grid-item-container">
+            <div class="grid-item-container" onclick="openModal('이시하네')">
                 <img src="photo/eshn.jpg" alt="22-04" class="grid-item">
                 <div class="color-bar" style="background-color: #999999; height: 5.5px;"></div>
-                <div class="grid-item-info">이시코와 하네오<br>-그런 일로 고소합니까?-</div>
+                <div class="grid-item-info">오오바 아오</div>
             </div>
-            <div class="grid-item-container">
+            <div class="grid-item-container" onclick="openModal('소바')">
                 <img src="photo/amami.jpg" alt="22-05" class="grid-item">
                 <div class="color-bar" style="background-color: #b26ec9; height: 5.5px;"></div>
-                <div class="grid-item-info">시오스케와 아마미<br>-소바가 만들어지기까지<br>탐정-</div>
+                <div class="grid-item-info">오오바 아오</div>
             </div>
-            <div class="grid-item-container">
+            <div class="grid-item-container" onclick="openModal('마이아가레')">
                 <img src="photo/maiagare.jpg" alt="22-06" class="grid-item">
                 <div class="color-bar" style="background-color: #999999; height: 5.5px;"></div>
-                <div class="grid-item-info">날아올라라!</div>
+                <div class="grid-item-info">우메즈 타카시</div>
             </div>
 
             <div class="year-label">2023년</div>
@@ -254,7 +254,7 @@
             <div class="grid-item-container" onclick="openModal('좀백')">
                 <img src="photo/zom100.jpg" alt="23-04" class="grid-item">
                 <div class="color-bar" style="background-color: #ddc86d; height: 5.5px;"></div>
-                <div class="grid-item-info">좀100:<br>텐도 아키라</div>
+                <div class="grid-item-info">텐도 아키라</div>
             </div>
 
             <div class="year-label">2024년</div>
@@ -302,6 +302,7 @@
             <span class="close" onclick="closeModal()">&times;</span>
             <h2 id="modal-title"></h2>
             <p id="modal-description"></p>
+            <p id="modal-etc" style="display: none; color: gray; font-size: 14px;"></p> <!-- etc 내용 -->
             <!-- 추가: 아이콘 섹션 -->
             <div class="modal-icons">
                 <a href="#" title="wat">
