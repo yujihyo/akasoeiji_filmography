@@ -178,6 +178,13 @@ html {
 
 .modal-icons a {
     text-decoration: none; /* 링크 밑줄 제거 */
+    pointer-events: none; /* 기본적으로 클릭 비활성화 */
+    opacity: 0.5; /* 비활성화된 링크는 흐리게 표시 */
+}
+
+.modal-icons a[href]:not([href="#"]) {
+    pointer-events: auto; /* 링크가 설정된 경우 클릭 가능 */
+    opacity: 1; /* 활성화된 링크는 원래 색상 유지 */
 }
 
 .icon {
