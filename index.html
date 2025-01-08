@@ -282,7 +282,7 @@
                 <div class="color-bar" style="background-color: #ddc86d; height: 5.5px;"></div>
                 <div class="grid-item-info">366일</div>
             </div>
-            <div class="grid-item-container">
+            <div class="grid-item-container" onclick="openModal('상속탐정', '개봉일: 2025.01.10')">
                 <img src="photo/sstj.jpg" alt="25-02" class="grid-item">
                 <div class="color-bar" style="background-color: #ddc86d; height: 5.5px;"></div>
                 <div class="grid-item-info">상속탐정</div>
@@ -297,33 +297,32 @@
     </div>
 
     <!-- 모달 창 -->
-<!-- 모달 창 -->
-<div id="modal" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <h2 id="modal-title"></h2>
-        <p id="modal-description"></p>
-        <!-- 추가: 아이콘 섹션 -->
-        <div class="modal-icons">
-            <a href="#" title="Watch Trailer">
-                <img src="icons/wat.png" alt="왓챠" class="icon">
-            </a>
-            <a href="#" title="More Info">
-                <img src="icons/tvi.png" alt="티빙" class="icon">
-            </a>
-            <a href="#" title="Share">
-                <img src="icons/wav.png" alt="웨이브" class="icon">
-            </a>
-            <a href="#" title="Favorite">
-                <img src="icons/nex.png" alt="넷플릭스" class="icon">
-            </a>
-            <a href="#" title="Buy Tickets">
-                <img src="icons/plu.png" alt="기타" class="icon">
-            </a>
+    <!-- 모달 창 -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+            <!-- 추가: 아이콘 섹션 -->
+            <div class="modal-icons">
+                <a href="#" title="Watch Trailer">
+                    <img src="icons/wat.png" alt="왓챠" class="icon">
+                </a>
+                <a href="#" title="More Info">
+                    <img src="icons/tvi.png" alt="티빙" class="icon">
+                </a>
+                <a href="#" title="Share">
+                    <img src="icons/wav.png" alt="웨이브" class="icon">
+                </a>
+                <a href="#" title="Favorite">
+                    <img src="icons/nex.png" alt="넷플릭스" class="icon">
+                </a>
+                <a href="#" title="Buy Tickets">
+                    <img src="icons/plu.png" alt="기타" class="icon">
+                </a>
+            </div>
         </div>
     </div>
-</div>
-
 
     <script src="script.js"></script>
 </body>
