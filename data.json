@@ -1,21 +1,21 @@
 [
   {
-      "title": "366일",
+      "title": "모시도쿠",
+      "description": "만약 도쿠가와 이에야스가 총리대신이 된다면",
+      "releaseDate": "2024.07.26",
+      "links": {
+
+    }
+  },
+  {
+      "title": "로쿠우소",
+      "description": "여섯 명의 거짓말쟁이 대학생",
+      "releaseDate": "2024.11.22",
       "links": {
           "wat": null,
           "tvi": null,
           "wav": null,
           "nex": null,
-          "plu": null
-      }
-  },
-  {
-      "title": "상속탐정",
-      "links": {
-          "wat": null,
-          "tvi": "https://info-link2.com",
-          "wav": "https://share-link2.com",
-          "nex": "https://favorite-link2.com",
           "plu": null
       }
   }
