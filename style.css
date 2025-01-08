@@ -1,0 +1,191 @@
+/* 전체 페이지 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+html {
+    height: 100%;
+    /* HTML도 높이를 100%로 설정 */
+    overflow-y: auto;
+    /* 수직 스크롤 허용 */
+}
+
+/* 그리드 컨테이너 스타일 */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 6열로 구성 */
+    gap: 10px;
+    /* 사진 간격 */
+    width: 100%;
+    /* 전체 너비 */
+    max-width: 1200px;
+    /* 최대 너비 */
+    margin: 20px;
+}
+
+/* 사진을 감싸는 컨테이너 스타일 */
+.grid-item-container {
+    position: relative;
+    /* 사진과 글귀를 겹치기 위해 컨테이너를 상대적으로 설정 */
+    overflow: hidden;
+    /* 사진 밖으로 글씨가 넘치지 않도록 설정 */
+    border-radius: 8px;
+    /* 사진과 동일한 둥근 모서리 */
+}
+
+/* 사진 스타일 */
+.grid-item {
+    width: 100%;
+    /* 그리드 칸에 맞게 */
+    aspect-ratio: 16 / 9;
+    /* 가로:세로 비율 3:4 */
+    object-fit: cover;
+    /* 사진 크기 조정 */
+    border-radius: 8px;
+    /* 사진 모서리를 둥글게 */
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* 사진 그림자 */
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    /* 호버 효과 추가 */
+}
+
+/* 사진 위의 글귀 스타일 */
+.grid-item-info {
+    position: absolute;
+    top: 50%;
+    /* 컨테이너의 수직 중앙 */
+    left: 50%;
+    /* 컨테이너의 수평 중앙 */
+    transform: translate(-50%, -50%);
+    /* 정확히 중앙 정렬 */
+    color: white;
+    /* 글자 색깔 */
+    font-size: clamp(4px, 2vw, 14px);
+    font-weight: bold;
+    /* 글씨 굵게 */
+    text-align: center;
+    /* 글자 정렬 */
+    padding: 0px 0px;
+    /* 글귀 주위 여백 */
+    border-radius: 8px;
+    /* 글귀 배경 둥근 모서리 */
+    max-width: 100%;
+    opacity: 0;
+    /* 초기 상태에서 글귀는 보이지 않음 */
+    transition: opacity 0.3s ease;
+    /* 부드럽게 나타나는 효과 */
+}
+
+/* 호버 효과 */
+.grid-item-container:hover .grid-item {
+    opacity: 0.5;
+    /* 사진이 50% 투명해짐 */
+}
+
+.grid-item-container:hover .grid-item-info {
+    opacity: 1;
+    /* 글귀가 나타남 */
+}
+
+.grid-item:hover {
+    transform: scale(1.05);
+    /* 호버 시 확대 */
+}
+
+/* 연도 문구 스타일 */
+.year-label {
+    grid-column: 1 / -1;
+    /* 전체 열에 걸쳐 위치 */
+    text-align: center;
+    /* 텍스트 가운데 정렬 */
+    font-size: clamp(18px, 2vw, 24px);
+    /* 글씨 크기 유동 조정 */
+    font-weight: bold;
+    /* 글씨 두껍게 */
+    color: #333;
+    /* 글씨 색 */
+    margin: 20px 0;
+    /* 위아래 간격 */
+}
+
+/* 색상바 스타일 */
+.color-bar {
+    width: 100%;
+    /* 이미지와 동일한 가로 길이 */
+    border-radius: 0 0 8px 8px;
+    /* 이미지 모서리와 맞춤 */
+}
+
+/* 모달 창 스타일 */
+.modal {
+    display: none; /* 기본적으로 숨김 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* 반투명 배경 */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%; /* 모달 너비 */
+    max-width: 400px; /* 최대 너비 */
+    text-align: center;
+  }
+  
+  .modal-content h2 {
+    margin: 0 0 10px;
+  }
+  
+  .modal-content p {
+    margin: 0;
+  }
+  
+  /* 닫기 버튼 스타일 */
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* 아이콘 섹션 스타일 */
+.modal-icons {
+    display: flex;
+    justify-content: center; /* 중앙 정렬 */
+    gap: 15px; /* 아이콘 간격 */
+    margin-top: 20px; /* 아이콘과 텍스트 간격 */
+}
+
+.modal-icons a {
+    text-decoration: none; /* 링크 밑줄 제거 */
+}
+
+.icon {
+    width: 40px; /* 아이콘 크기 */
+    height: 40px;
+    transition: transform 0.2s ease; /* 호버 효과 */
+}
+
+.icon:hover {
+    transform: scale(1.1); /* 아이콘 확대 */
+}
