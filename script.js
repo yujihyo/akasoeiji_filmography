@@ -1,25 +1,17 @@
-const filmographyData = [
-  {
-      "title": "366일",
-      "links": {
-          "watch": "https://watch-link1.com",
-          "info": "https://info-link1.com",
-          "share": null,
-          "favorite": "https://favorite-link1.com",
-          "buy": "https://buy-link1.com"
-      }
-  },
-  {
-      "title": "상속탐정",
-      "links": {
-          "watch": null,
-          "info": "https://info-link2.com",
-          "share": "https://share-link2.com",
-          "favorite": "https://favorite-link2.com",
-          "buy": null
-      }
-  }
-];
+let filmographyData = []; // JSON 데이터를 저장할 변수
+
+// JSON 파일 로드
+async function loadFilmographyData() {
+    try {
+        const response = await fetch('data.json'); // data.json 파일 경로
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        filmographyData = await response.json();
+    } catch (error) {
+        console.error("JSON 데이터를 가져오는 데 실패했습니다:", error);
+    }
+}
 
 // 모달창 열 때 선택된 항목의 정보를 설정
 function openModal(title, description) {
@@ -34,7 +26,7 @@ function openModal(title, description) {
 
   // 아이콘 링크를 업데이트
   const icons = document.querySelectorAll(".modal-icons a");
-  const iconTypes = ["watch", "info", "share", "favorite", "buy"];
+  const iconTypes = ["wat", "tvi", "wav", "nex", "plu"];
 
   icons.forEach((icon, index) => {
       const linkType = iconTypes[index];
@@ -59,3 +51,8 @@ function openModal(title, description) {
 function closeModal() {
   document.getElementById("modal").style.display = "none";
 }
+
+// 페이지 로드 시 JSON 데이터 로드
+window.addEventListener("DOMContentLoaded", () => {
+  loadFilmographyData();
+});

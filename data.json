@@ -1,1 +1,22 @@
-{}
+[
+  {
+      "title": "366일",
+      "links": {
+          "wat": null,
+          "tvi": null,
+          "wav": null,
+          "nex": null,
+          "plu": null
+      }
+  },
+  {
+      "title": "상속탐정",
+      "links": {
+          "wat": null,
+          "tvi": "https://info-link2.com",
+          "wav": "https://share-link2.com",
+          "nex": "https://favorite-link2.com",
+          "plu": null
+      }
+  }
+]
