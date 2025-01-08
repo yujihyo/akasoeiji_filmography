@@ -22,7 +22,7 @@ function openModal(title) {
       const modalDescription = document.getElementById("modal-description");
 
       modalTitle.textContent = selectedItem.description;
-      modalDescription.textContent = `개봉일: ${selectedItem.releaseDate}`;
+      modalDescription.textContent = `${selectedItem.releaseDate}`;
 
       // 아이콘 링크를 업데이트
       const icons = document.querySelectorAll(".modal-icons a");
