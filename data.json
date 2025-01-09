@@ -1,5 +1,77 @@
 [
   {
+    "title": "콜드케이스",
+    "description": "콜드 케이스 ~진실의 문~ 시즌3",
+    "releaseDate": "2021.01.16",
+    "etc": "6화 출연",
+    "links": {
+
+    }
+  },
+  {
+    "title": "우리딸남친",
+    "description": "우리 집 딸은, 남자친구가 생기지 않아!!",
+    "releaseDate": "2021.02.07",
+    "etc": "4화 출연",
+    "links": {
+      "wat": "https://watcha.com/ko-KR/contents/share/tEkONje",
+      "tvi": "https://www.tving.com/contents/P001714776"
+    }
+  },
+  {
+    "title": "감찰의",
+    "description": "감찰의 아사가오 시즌2",
+    "releaseDate": "2021.02.08",
+    "etc": "13화 출연",
+    "links": {
+
+    }
+  },
+  {
+    "title": "수사파일",
+    "description": "하쿠타카 시라타카 아마네의 수사파일",
+    "releaseDate": "2021.03.22",
+    "etc": "단편 드라마",
+    "links": {
+
+    }
+  },
+  {
+    "title": "카노키레",
+    "description": "그녀는 예뻤다",
+    "releaseDate": "2021.07.06 ~ 2021.09.14",
+    "links": {
+
+    }
+  },
+  {
+    "title": "요괴",
+    "description": "요괴대전쟁 가디언즈",
+    "releaseDate": "2021.08.13",
+    "links": {
+
+    }
+  },
+  {
+    "title": "슈퍼리치",
+    "description": "SUPER RICH",
+    "releaseDate": "2021.10.14 ~ 2021.12.23",
+    "etc": "주인공 상대역",
+    "links": {
+
+    }
+  },
+  {
+    "title": "기묘",
+    "description": "기묘한 이야기 21 가을 특별편 ⌜스킵⌟",
+    "releaseDate": "2021.11.06",
+    "etc": "단편 드라마",
+    "links": {
+      "tvi": "https://www.tving.com/contents/P001712101",
+      "wav": "https://deep.wavve.com/content/CR02_DN0000000396"
+    }
+  },
+  {
     "title": "결전일",
     "description": "결전은 일요일",
     "releaseDate": "2022.01.07",
@@ -14,9 +86,7 @@
     "links": {
         "wat": "https://watcha.com/ko-KR/contents/share/tEojzWV",
         "tvi": "https://www.tving.com/contents/P001741526",
-        "wav": "https://deep.wavve.com/content/C3901_C39000000225",
-        "nex": null,
-        "plu": null
+        "wav": "https://deep.wavve.com/content/C3901_C39000000225"
     }
   },
   {
@@ -25,10 +95,7 @@
     "releaseDate": "2022.04.08",
     "links": {
         "wat": "https://watcha.com/ko-KR/contents/share/mObV08N",
-        "tvi": null,
-        "wav": "https://deep.wavve.com/content/MV_MC01_MC000000015",
-        "nex": null,
-        "plu": null
+        "wav": "https://deep.wavve.com/content/MV_MC01_MC000000015"
     }
   },
   {
@@ -38,16 +105,14 @@
     "links": {
         "wat": "https://watcha.com/ko-KR/contents/share/tRMxZm4",
         "tvi": "https://www.tving.com/contents/P001752854",
-        "wav": "https://deep.wavve.com/content/C3901_C39000000241",
-        "nex": null,
-        "plu": null
+        "wav": "https://deep.wavve.com/content/C3901_C39000000241"
     }
   },
   {
     "title": "소바",
     "description": "시오스케와 아마미 -소바가 만들어지기까지 탐정-",
     "releaseDate": "2022.08.05",
-    "etc": "3화",
+    "etc": "3화 출연",
     "links": {
 
     }
@@ -65,13 +130,11 @@
     "title": "교장0",
     "description": "카자마 키미치카 -교장 0-",
     "releaseDate": "2023.04.10 ~ 2023.04.17",
-    "etc": "1화, 2화 / 주인공 버디",
+    "etc": "1화, 2화 출연 / 주인공 버디",
     "links": {
         "wat": "https://watcha.com/ko-KR/contents/share/tPVdK3b",
         "tvi": "https://www.tving.com/contents/P001753486",
-        "wav": "https://deep.wavve.com/content/CR02_DN0000000539",
-        "nex": null,
-        "plu": null
+        "wav": "https://deep.wavve.com/content/CR02_DN0000000539"
     }
   },
   {
@@ -81,10 +144,8 @@
     "etc": "주인공 버디",
     "links": {
         "wat": "https://watcha.com/ko-KR/contents/share/tRN7gdM",
-        "tvi": null,
         "wav": "https://deep.wavve.com/content/CR02_DN0000000508",
-        "nex": "https://www.netflix.com/title/81680399",
-        "plu": null
+        "nex": "https://www.netflix.com/title/81680399"
     }
   },
   {
@@ -96,8 +157,7 @@
         "wat": "https://watcha.com/ko-KR/contents/share/tPJZKMp",
         "tvi": "https://www.tving.com/contents/P001749501",
         "wav": "https://deep.wavve.com/content/C3601_C36000000321",
-        "nex": "https://www.netflix.com/title/81709819",
-        "plu": null
+        "nex": "https://www.netflix.com/title/81709819"
     }
   },
   {
@@ -105,11 +165,7 @@
     "description": "좀100: 좀비가 되기 전에 하고 싶은 100가지",
     "releaseDate": "2023.08.03",
     "links": {
-        "wat": null,
-        "tvi": null,
-        "wav": null,
-        "nex": "https://www.netflix.com/title/81464329",
-        "plu": null
+        "nex": "https://www.netflix.com/title/81464329"
     }
   },
   {
@@ -119,9 +175,7 @@
     "links": {
         "wat": "https://watcha.com/ko-KR/contents/share/tPvb7xJ",
         "tvi": "https://www.tving.com/contents/P001760692",
-        "wav": "https://deep.wavve.com/content/C3601_C36000000345",
-        "nex": null,
-        "plu": null
+        "wav": "https://deep.wavve.com/content/C3601_C36000000345"
     }
   },
   {
