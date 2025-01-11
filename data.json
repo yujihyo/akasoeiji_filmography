@@ -1,5 +1,198 @@
 [
   {
+    "title": "빌드",
+    "description": "가면라이더 빌드",
+    "releaseDate": "2017.08.26 ~ 2018.08.26",
+    "etc": "더빙판 한정",
+    "links": {
+      "tvi": "https://www.tving.com/contents/P001707272",
+      "wav": "https://deep.wavve.com/content/CR02_DN0000000304",
+      "plu": "https://laftel.net/item/39207"
+    }
+  },
+  {
+    "title": "키라군",
+    "description": "오늘의 키라군",
+    "releaseDate": "2017.09.07",
+    "links": {
+      "wat": "https://watcha.com/ko-KR/contents/share/m5NVMD8",
+      "tvi": "https://www.tving.com/contents/M000149695",
+      "wav": "https://deep.wavve.com/content/MV_CX01_CX0000011255"
+    }
+  },
+  {
+    "title": "헤제레",
+    "description": "가면라이더 헤이세이 제너레이션즈 FINAL 빌드@에그제이드 witn 레전드 라이더",
+    "releaseDate": "2017.12.09",
+    "etc": "더빙판 한정",
+    "links": {
+      "wav": "https://deep.wavve.com/content/MV_CR01_DN0000011200",
+      "plu": "https://laftel.net/item/39440"
+    }
+  },
+  {
+    "title": "비더원",
+    "description": "극장판 가면라이더 빌드 Be The One",
+    "releaseDate": "2018.08.04",
+    "etc": "더빙판 한정",
+    "links": {
+      "wav": "https://deep.wavve.com/content/MV_CR01_DN0000011204",
+      "plu": "https://laftel.net/item/39474"
+    }
+  },
+  {
+    "title": "지오",
+    "description": "가면라이더 지오",
+    "releaseDate": "2018.09.02 ~ 2018.09.09",
+    "etc": "1화, 2화 출연 / 더빙판 한정",
+    "links": {
+      "tvi": "https://www.tving.com/contents/P001699045",
+      "plu": "https://laftel.net/item/39877"
+    }
+  },
+  {
+    "title": "지오보완",
+    "description": "가면라이더 지오 보완계획",
+    "releaseDate": "2018.09.09",
+    "etc": "2.5화 출연",
+    "links": {
+
+    }
+  },
+  {
+    "title": "제네포",
+    "description": "가면라이더 헤이세이 제네레이션즈 FOREVER",
+    "releaseDate": "2018.12.22 / 더빙판 한정",
+    "links": {
+      "tvi": "https://www.tving.com/contents/M000371032",
+      "wav": "https://deep.wavve.com/content/MV_CR01_DN0000011231",
+      "plu": "https://laftel.net/item/39440"
+    }
+  },
+  {
+    "title": "이노센스",
+    "description": "이노센스 원죄변호사",
+    "releaseDate": "2019.01.19 ~ 2019.03.23",
+    "links": {
+      "plu": "https://laftel.net/item/40134"
+    }
+  },
+  {
+    "title": "크로즈",
+    "description": "빌드 NEW WORLD 가면라이더 크로즈",
+    "releaseDate": "2019.01.25",
+    "links": {
+
+    }
+  },
+  {
+    "title": "남편쉐어",
+    "description": "나 남편을 쉐어했다",
+    "releaseDate": "2019.07.04 ~ 2019.09.05",
+    "links": {
+
+    }
+  },
+  {
+    "title": "그리스",
+    "description": "빌드 NEW WORLD 가면라이더 그리스",
+    "releaseDate": "2019.09.06",
+    "links": {
+
+    }
+  },
+  {
+    "title": "아노센세",
+    "description": "이봐 선생님, 그거 모르지?",
+    "releaseDate": "2019.12.05 ~ 2020.1.16",
+    "etc": "첫 연속 공동주연",
+    "links": {
+      "wat": "https://watcha.com/ko-KR/contents/share/tEojbJb",
+      "tvi": "https://www.tving.com/contents/P001753069",
+      "wav": "https://deep.wavve.com/content/F7101_F71000000121",
+      "plu": "https://www.dorama.kr/contents/1852"
+    }
+  },
+  {
+    "title": "패커",
+    "description": "패닉 커머셜",
+    "releaseDate": "2019.12.17",
+    "etc": "첫 단편 단독주연",
+    "links": {
+
+    }
+  },
+  {
+    "title": "영상연드",
+    "description": "영상연에는 손대지 마!(드라마)",
+    "releaseDate": "2020.01.16",
+    "links": {
+
+    }
+  },
+  {
+    "title": "과수연",
+    "description": "과수연의 여자 시즌19",
+    "releaseDate": "2020.02.27",
+    "etc": "31화 출연",
+    "links": {
+
+    }
+  },
+  {
+    "title": "미식탐정",
+    "description": "미식탐정 아케치 고로",
+    "releaseDate": "2020.04.26",
+    "etc": "3화 출연",
+    "links": {
+
+    }
+  },
+  {
+    "title": "유리",
+    "description": "탐정 유리 린타로",
+    "releaseDate": "2020.06.23",
+    "etc": "2화 출연",
+    "links": {
+
+    }
+  },
+  {
+    "title": "사사차차",
+    "description": "사랑하고 사랑받고, 차고 차이고",
+    "releaseDate": "2021.01.16",
+    "links": {
+      "wat": "https://watcha.com/ko-KR/contents/share/m5nXpoo?search_id%3D5b5b1b20-001e-4534-86f7-104f82daea29",
+      "tvi": "https://www.tving.com/contents/M000361493",
+      "wav": "https://deep.wavve.com/content/MV_EN01_EN000000929"
+    }
+  },
+  {
+    "title": "영상연영",
+    "description": "영상연에는 손대지 마!(영화)",
+    "releaseDate": "2020.09.25",
+    "links": {
+
+    }
+  },
+  {
+    "title": "동정마법",
+    "description": "30살까지 동정이면 마법사가 될 수 있대",
+    "releaseDate": "2020.10.08 ~ 2020.12.25",
+    "etc": "첫 연속 단독주연",
+    "links": {
+      "wat": "https://watcha.com/ko-KR/contents/share/tEZAQWd"
+    }
+  },
+  {
+    "title": "야운페",
+    "description": "야운페를 찾아라!",
+    "releaseDate": "2020.11.20",
+    "links": {
+
+    }
+  },
+  {
     "title": "콜드케이스",
     "description": "콜드 케이스 ~진실의 문~ 시즌3",
     "releaseDate": "2021.01.16",
@@ -10,12 +203,13 @@
   },
   {
     "title": "우리딸남친",
-    "description": "우리 집 딸은, 남자친구가 생기지 않아!!",
+    "description": "우리 딸은, 남자친구가 생기지 않아!!",
     "releaseDate": "2021.02.07",
     "etc": "4화 출연",
     "links": {
       "wat": "https://watcha.com/ko-KR/contents/share/tEkONje",
-      "tvi": "https://www.tving.com/contents/P001714776"
+      "tvi": "https://www.tving.com/contents/P001714776",
+      "plu": "https://www.dorama.kr/contents/1951"
     }
   },
   {
@@ -68,7 +262,8 @@
     "etc": "단편 드라마",
     "links": {
       "tvi": "https://www.tving.com/contents/P001712101",
-      "wav": "https://deep.wavve.com/content/CR02_DN0000000396"
+      "wav": "https://deep.wavve.com/content/CR02_DN0000000396",
+      "plu": "https://www.jbox.co.kr/etc/redirect/?q=BP99858355&sc=Y"
     }
   },
   {
@@ -145,7 +340,8 @@
     "links": {
         "wat": "https://watcha.com/ko-KR/contents/share/tRN7gdM",
         "wav": "https://deep.wavve.com/content/CR02_DN0000000508",
-        "nex": "https://www.netflix.com/title/81680399"
+        "nex": "https://www.netflix.com/title/81680399",
+        "plu": "https://www.jbox.co.kr/etc/redirect/?q=BP21346201&sc=Y"
     }
   },
   {
